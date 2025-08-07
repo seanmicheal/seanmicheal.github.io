@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrambled Eggs Recipe & Hosting Plan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .recipe-header {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .image-gallery img {
+            max-width: 48%; /* Slightly less than 50% to account for gap */
+            height: auto;
+            border: 1px solid #eee;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .recipe-intro {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 30px;
+            padding: 0 20px;
+            line-height: 1.5;
+        }
+
+        .recipe-details {
+            display: flex;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .ingredients, .method {
+            flex: 1;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .ingredients {
+            border-right: 1px solid #ddd;
+        }
+
+        .recipe-details h2 {
+            margin-top: 0;
+            color: #444;
+            font-size: 1.2em;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .ingredients ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .method ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+        }
+
+        .method li {
+            margin-bottom: 8px;
+        }
+
+        /* Hosting Plan Styles */
+        .hosting-plan-section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .hosting-plan-section h2 {
+            margin-top: 0;
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .hosting-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .hosting-table th, .hosting-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .hosting-table th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .hosting-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .sign-up-button-container {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .sign-up-button {
+            display: inline-block;
+            background-color: #5cb85c; /* Green button */
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+
+        .sign-up-button:hover {
+            background-color: #4cae4c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="recipe-header">Recipe</h1>
+        <h1>Scrambled Eggs</h1>
+
+        <div class="image-gallery">
+            <img src="images/s-egg.jpg" alt="Scrambled Eggs with toast">
+            <img src="images/s-egg1.jpg" alt="Scrambled Eggs with fruit and muffin">
+        </div>
+
+        <p class="recipe-intro">Eggs are one of my favorite foods. Here is a recipe for deliciously rich scrambled eggs.</p>
+
+        <div class="recipe-details">
+            <div class="ingredients">
+                <h2>Ingredients</h2>
+                <ul>
+                    <li>2 eggs</li>
+                    <li>1tbs butter</li>
+                    <li>2tbs cream</li>
+                </ul>
+            </div>
+            <div class="method">
+                <h2>Method</h2>
+                <ol>
+                    <li>Melt butter in a frying pan over a medium heat</li>
+                    <li>Gently mix the eggs and cream in a bowl</li>
+                    <li>Once butter has melted add cream and eggs</li>
+                    <li>Using a spatula fold the eggs from the edge of the pan to the center every 20 seconds (as if you are making an omelette)</li>
+                    <li>When the eggs are still moist remove from the heat (it will continue to cook on the plate until served)</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="hosting-plan-section">
+        <h2>Hosting Plan</h2>
+
+        <table class="hosting-table">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Home starter hosting</th>
+                    <th>Premium business hosting</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Disk space | Bandwidth</td>
+                    <td>250mb<br>5gb per month</td>
+                    <td>1gb<br>50gb per month</td>
+                </tr>
+                <tr>
+                    <td>Email accounts</td>
+                    <td>3</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Server</td>
+                    <td>Shared</td>
+                    <td>VPS</td>
+                </tr>
+                <tr>
+                    <td>Support</td>
+                    <td>Email</td>
+                    <td>Telephone and email</td>
+                </tr>
+                <tr>
+                    <td>Setup</td>
+                    <td>Free</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td>FTP accounts</td>
+                    <td>1</td>
+                    <td>5</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="sign-up-button-container">
+            <a href="#" class="sign-up-button">Sign up now and save 10%!</a>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    background-color: #16365d;
+}
+h1{
+    color: white;
+    text-align: right;
+}
+p{
+    color: white;
+    font-size: large;
+}
+li{
+    color: white;
+    margin-left: 40px;
+}
+.li{
+    color: red;
+}
+.li1{
+    color: violet;
+}
+.head1{
+    color: red;
+    text-align: center;
+}
+.head2{
+    text-align: left;
+    background-color: black;
+    width: 50%;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+.head3{
+    color: lime;
+}
+.paragraph4{
+    background-color: black;
+    font-size: medium;
+    padding: 50px;
+}
+h3{
+    color: yellow;
+    text-decoration: underline;
+}
+.paragraph5{
+    background-color: red;
+}
+

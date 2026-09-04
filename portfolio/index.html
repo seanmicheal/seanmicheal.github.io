@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sean Michael — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="nav-wrap">
+    <nav class="nav">
+      <a href="#home" class="logo">SP<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="tag">full-stack student developer</p>
+          <h1>Hi, I'm Sean Michael Palaran.</h1>
+          <p class="hero-sub">
+            I'm a Bachelor Science Information Technology, 4th year, who likes turning everyday
+            annoyances into small working apps<span class="cursor">_</span>
+          </p>
+          <p class="hero-tagline">"From problem to possibility — building things people actually use."</p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View my projects</a>
+            <a href="documents/Sean_Michael_Palaran_Resume.pdf" class="btn btn-outline" download>Download resume</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img src="images/profile.jpg" alt="Sean Michael profile photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="wrap">
+       <h2> <p class="section-tag">About Me</p></h2>
+        <div class="about-grid">
+          <div class="about-copy">
+            <p>
+              I'm an Bachelor Science Information Technology student currently learning about programming, web
+              development, and other
+              areas of technology. I am still developing my skills through school activities, projects, and hands-on
+              practice. </p>
+            <p> I enjoy learning new things related to technology and improving my skills as I continue my studies. My
+              goal is to gain more experience and eventually work in the IT field.
+            </p>
+          </div>
+          <ul class="about-facts">
+            <li><span>Program</span>BS Information Technology</li>
+            <li><span>Year level</span>4th Year</li>
+            <li><span>Interests</span>Web development, UI/UX, entrepreneurship</li>
+            <li><span>Hobbies</span> Basketball, Watching movies, Reading about startups</li>
+            <li><span>Goal</span>Software developer, future technopreneur</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section alt">
+      <div class="wrap">
+        <p class="section-tag">skills</p>
+        <h2>What I work with</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Languages &amp; Web</h3>
+            <div class="chips">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              <span>Python</span><span>Java</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <div class="chips">
+              <span>Git &amp; GitHub</span><span>VS Code</span>
+              <span>Figma</span><span>GitHub Pages</span>
+            </div>
+          </div>
+          <div class="skill-card">
+            <h3>Soft skills</h3>
+            <div class="chips">
+              <span>Problem solving</span><span>Time management</span>
+              <span>Teamwork</span><span>Adaptability</span><span>Willingness to learn</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="wrap">
+        <p class="section-tag">projects</p>
+        <h2>Selected work</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-media">
+              <img src="images/1.PNG" alt="Travel Booking project screenshot">
+            </div>
+            <div class="project-body">
+              <h3>Travel Booking</h3>
+              <p>
+                My first website project, designed to let users explore travel destinations, view information, and book
+                trips online.
+              </p>
+              <div class="chips small">
+                <span>Figma</span><span>HTML/CSS</span><span>Git/GitHub</span>
+              </div>
+              <a href="https://seanmicheal.github.io/week7/" target="_blank" rel="noopener">View project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media">
+              <img src="images/2.PNG" alt="Personal portfolio website screenshot">
+            </div>
+            <div class="project-body">
+              <h3>Furni — E-Commerce Layout Practice</h3>
+              <p>
+                A practice layout project designed to explore Bootstrap grid systems and responsive components by
+                recreating an e-commerce landing page. This serves as an early layout exercise focused on structuring UI
+                elements, cards, and navigation.
+              </p>
+              <div class="chips small">
+                <span>HTML</span><span>CSS</span><span>Git/GitHub</span>
+              </div>
+              <a href="https://seanmicheal.github.io/midterm-furi/#" target="_blank" rel="noopener">View project ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-media">
+              <img src="images/3.PNG" alt="Simple calculator screenshot">
+            </div>
+            <div class="project-body">
+              <h3>Simple Calculator</h3>
+              <p>
+                A lightweight web app for basic arithmetic calculations, designed to make
+                quick computations easy and accessible on any device.
+              </p>
+              <div class="chips small">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Git/GitHub</span>
+              </div>
+              <a href="https://seanmicheal.github.io/simple-calculator/" target="_blank" rel="noopener">View project
+                ↗</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section alt">
+      <div class="wrap">
+         <h2><p class="section-tag">education</p>
+</h2>
+        <ol class="timeline">
+          <li>
+            <span class="dot"></span>
+            <div>
+              <h3>BS Information Technology</h3>
+              <p class="meta">Asian College Science and Technology · 2026 – Present (4th Year)</p>
+              <p>Relevant coursework: Data Structures &amp; Algorithms, Web Development, Database Systems,
+                Human-Computer Interaction.</p>
+            </div>
+          </li>
+          <li>
+            <span class="dot"></span>
+            <div>
+              <h3>Senior High School — ABM Strand</h3>
+              <p class="meta">Your Senior High School · 2019 – 2021</p>
+              <p>Successfully completed Senior High School under the ABM Strand.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements" class="section">
+      <div class="wrap">
+       <h2> <p class="section-tag">achievements</p>
+        </h2>
+
+        <div class="cert-grid">
+
+          <!-- Certificate -->
+          <div class="cert-card">
+            <img src="images/ac1.PNG" alt="Legacy Responsive Web Design Certificate" class="cert-image">
+
+            <div class="cert-icon"></div>
+            <h3>Legacy Responsive Web Design</h3>
+            <p class="meta">freeCodeCamp · 2025</p>
+            <p>
+              Completed the Legacy Responsive Web Design certification,
+              covering HTML, CSS, and responsive web design.
+            </p>
+          </div>
+
+          <!-- Message on the right -->
+          <div class="cert-message">
+            <div class="cert-icon">🏆</div>
+            <h3>More Certificates Coming Soon</h3>
+            <p>
+              I am currently working on completing additional
+              freeCodeCamp certifications. More achievements will
+              be added here as I earn them.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section alt resume-section">
+      <div class="wrap resume-wrap">
+        <div>
+          <h2> <p class="section-tag">resume</p></h2>
+          <p>Download a one-page PDF summary of my education, skills, and projects.</p>
+        </div>
+        <a href="documents/Sean_Michael_Palaran_Resume.pdf" class="btn btn-primary" download>Download resume (PDF)</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+      <div class="wrap">
+        <p class="section-tag">contact</p>
+        <h2>Let's talk</h2>
+        <p class="contact-lead">Open to internships, group projects, and good ideas over coffee.</p>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:michealpalaran55@gmail.com">
+            <span class="c-label">Email</span>
+            <span class="c-value">michealpalaran55@gmail.com</span>
+          </a>
+          <a class="contact-card" href="https://github.com/seanmicheal" target="_blank" rel="noopener">
+            <span class="c-label">GitHub</span>
+            <span class="c-value">github.com/seanmicheal</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2026 Sean Michael. Built with HTML &amp; CSS, deployed on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
